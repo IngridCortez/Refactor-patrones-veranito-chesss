@@ -16,7 +16,6 @@ import java.util.Map;
  */
 public class Rook extends ChessGamePiece{
 	protected Map<Integer, String> iconsMap;
-	// private ArrayList<String> possibleMoves;
 	// ----------------------------------------------------------
 	/**
 	 * Create a new Rook object.
