@@ -1,7 +1,11 @@
+package org.example;
 
 import java.util.ArrayList;
 import java.awt.Color;
 import javax.swing.JOptionPane;
+
+import ChessPanel;
+import King;
 
 import java.awt.event.MouseEvent;
 import java.io.Serializable;

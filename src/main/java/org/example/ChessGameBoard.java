@@ -1,10 +1,18 @@
-
+package org.example;
 
 import java.util.ArrayList;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.Color;
 import javax.swing.JPanel;
+
+import ChessPanel;
+import King;
+import Knight;
+import Pawn;
+import Queen;
+import Rook;
+
 import java.awt.GridLayout;
 // -------------------------------------------------------------------------
 /**

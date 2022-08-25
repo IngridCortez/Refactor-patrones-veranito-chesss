@@ -1,4 +1,4 @@
-
+package org.example;
 
 import java.awt.Component;
 import java.awt.event.*;
