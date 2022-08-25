@@ -150,7 +150,7 @@ public class ChessGameBoard extends JPanel{
             }
         }
         repaint();
-        //revalidate();
+
         // only the combination of these two calls work...*shrug*
     }
     /**
