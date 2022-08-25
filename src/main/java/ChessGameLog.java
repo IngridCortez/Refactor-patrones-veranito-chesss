@@ -1,4 +1,3 @@
-package Final;
 
 import javax.swing.JTextArea;
 import javax.swing.ScrollPaneConstants;

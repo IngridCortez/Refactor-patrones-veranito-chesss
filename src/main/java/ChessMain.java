@@ -1,4 +1,3 @@
-package Final;
 
 import javax.swing.WindowConstants;
 import javax.swing.*;
