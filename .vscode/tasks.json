@@ -1,10 +1,10 @@
 {
 	"version": "2.0.0",
 	"tasks": [
-		{
+        {
             "label": "JC",
             "command": "java",
-            "windows":{
+            "windows": {
                 "command": "C:\\Program Files\\Java\\jdk-15.0.2\\bin\\javac.exe"
             },
             "args": [
@@ -14,12 +14,12 @@
         {
             "label": "JR",
             "command": "java",
-            "windows":{
+            "windows": {
                 "command": "C:\\Program Files\\Java\\jdk-15.0.2\\bin\\java.exe"
             },
             "args": [
                 "${fileBasenameNoExtension}"
             ]
         }
-	]
+    ]
 }
