@@ -6,13 +6,6 @@ import java.awt.event.MouseListener;
 import java.awt.Color;
 import javax.swing.JPanel;
 
-import ChessPanel;
-import King;
-import Knight;
-import Pawn;
-import Queen;
-import Rook;
-
 import java.awt.GridLayout;
 // -------------------------------------------------------------------------
 /**
