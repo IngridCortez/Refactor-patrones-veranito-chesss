@@ -77,8 +77,8 @@ public class ChessGameBoard extends JPanel{
      *
      * @return ArrayList<GamePiece> the pieces
      */
-    public ArrayList<ChessGamePiece> getAllWhitePieces(){
-        List<ChessGamePiece> whitePieces = new ArrayList<ChessGamePiece>();
+    public List<ChessGamePiece> getAllWhitePieces(){
+        ArrayList<ChessGamePiece> whitePieces = new ArrayList<ChessGamePiece>();
         for ( int i = 0; i < 8; i++ ){
             for ( int j = 0; j < 8; j++ ){
                 if ( chessCells[i][j].getPieceOnSquare() != null
@@ -88,7 +88,7 @@ public class ChessGameBoard extends JPanel{
                 }
             }
         }
-        return (ArrayList<ChessGamePiece>) whitePieces;
+        return whitePieces;
     }
     // ----------------------------------------------------------
     /**
@@ -96,8 +96,8 @@ public class ChessGameBoard extends JPanel{
      *
      * @return ArrayList<GamePiece> the pieces
      */
-    public ArrayList<ChessGamePiece> getAllBlackPieces(){
-        List<ChessGamePiece> blackPieces = new ArrayList<ChessGamePiece>();
+    public List<ChessGamePiece> getAllBlackPieces(){
+        ArrayList<ChessGamePiece> blackPieces = new ArrayList<ChessGamePiece>();
         for ( int i = 0; i < 8; i++ ){
             for ( int j = 0; j < 8; j++ ){
                 if ( chessCells[i][j].getPieceOnSquare() != null
@@ -107,7 +107,7 @@ public class ChessGameBoard extends JPanel{
                 }
             }
         }
-        return (ArrayList<ChessGamePiece>) blackPieces;
+        return blackPieces;
     }
     // ----------------------------------------------------------
     /**
