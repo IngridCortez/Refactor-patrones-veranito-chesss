@@ -3,6 +3,8 @@ package org.example;
 import java.awt.Color;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
+
 import javax.swing.ImageIcon;
 // -------------------------------------------------------------------------
 /**
@@ -705,7 +707,7 @@ public abstract class ChessGamePiece implements Serializable{
      * @param board the game board to check on
      * @return ArrayList<GamePiece> the list of attackers
      */
-    public ArrayList<ChessGamePiece> getCurrentAttackers( ChessGameBoard board ){
+    public List<ChessGamePiece> getCurrentAttackers( ChessGameBoard board ){
         ArrayList<ChessGamePiece> attackers = new ArrayList<ChessGamePiece>();
         int enemyColor =
             ( this.getColorOfPiece() == ChessGamePiece.BLACK )
